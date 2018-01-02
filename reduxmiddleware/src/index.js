@@ -1,8 +1,12 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
+import ReactDOM from 'react-dom';
+import React from 'react';
+import SearchBar from './containers/search_bar';
+import App from './components/app';
+
+
+
+/* const createStoreWithMiddleware = applyMiddleware()(createStore); */
+
+ReactDOM.render(< App / >, document.querySelector('.container'));
+
